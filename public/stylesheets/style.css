@@ -30,7 +30,7 @@ a:hover {
 button {
   background-color: #225ca3;
   border: 0;
-  padding: 5%;
+  padding: 8px;
   color: white;
   font-weight: bold;
   transition: background-color 0.1s;
@@ -49,8 +49,8 @@ button:hover {
 
 textarea,
 input {
-  margin: 3% 0 3% 0;
-  padding: 3%;
+  margin: 8px 0 8px 0;
+  padding: 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
