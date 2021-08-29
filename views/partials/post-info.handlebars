@@ -1,11 +1,9 @@
 <article class="post">
   <div class="title">
-    <a href="{{post_contents}}" target="_blank">{{title}}</a>
-    <span>({{format_url post_contents}})</span>
+    <h2><a href="/post/{{id}}">{{title}}</a></h2>
+    <span>{{post_contents}}</span>
   </div>
   <div class="meta">
-    {{vote_count}}
-    {{format_plural "point" vote_count}}
     by
     {{user.username}}
     on

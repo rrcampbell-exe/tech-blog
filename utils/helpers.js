@@ -11,12 +11,11 @@ module.exports = {
 
     return word;
   },
-  format_url: (url) => {
-    return url
-      .replace("http://", "")
-      .replace("https://", "")
-      .replace("www.", "")
-      .split("/")[0]
-      .split("?")[0];
+  format_post_content: (content) => {
+    if (content.length < 70) {
+      return content;
+    } else {
+      return content.substring(0, 70) + "...";
+    }
   },
 };
