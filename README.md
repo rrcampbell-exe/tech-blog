@@ -33,7 +33,7 @@ This application is covered under the MIT license.
 - [Ryan R. Campbell](https://www.github.com/rrcampbell-exe/)
 
 ### With Additional Credit To
-- Routes and CSS based on 2U instructional modules 13 and 14, namely "Object Relational Mapping (ORM)" and "Model-View Controller (MVC)
+- Routes and CSS based on 2U instructional modules 13 and 14, namely "Object Relational Mapping (ORM)" and "Model-View Controller (MVC)"
 
 ## Questions, Comments, Suggestions
 Please email [Ryan R. Campbell](mailto:campbell.ryan.r@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Ryan R. Campbell on GitHub](https://www.github.com/rrcampbell-exe/).
