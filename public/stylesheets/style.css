@@ -9,17 +9,26 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: #fbeaff;
+}
+
+:root {
+  --primary:#8922a3;
+  --secondary: #956f9e;
+  --important: #d41414;
+  --important-secondary: #ff643d;
+  --black: #000000; 
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: var(--primary);
   font-weight: bold;
-  transition: color 0.1s;
+  transition: color 0.5s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: var(--secondary);
 }
 
 .form-container {
@@ -28,7 +37,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: var(--primary);
   border: 0;
   padding: 8px;
   color: white;
@@ -39,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: var(--secondary);
 }
 
 .post-list {
@@ -58,7 +67,7 @@ input {
 textarea:focus,
 input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid var(--secondary);
 }
 
 textarea {
@@ -106,7 +115,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: var(--primary);
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -115,15 +124,15 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: var(--secondary);
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: var(--important);
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: var(--important-secondary);
 }
 
 .post {
@@ -134,7 +143,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: var(--black);
 }
 
 .edit-link {
@@ -152,7 +161,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #ffffff;
 }
 
 .comment .meta {
